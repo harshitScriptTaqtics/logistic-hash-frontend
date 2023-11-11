@@ -9,12 +9,13 @@
     "env-cmd": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "env-cmd -f ./environment/logistic-hash-default/.env react-scripts start",
+    "start": "env-cmd -f ./environment/logistic-hash-default/.env react-scripts start --host logistic.hash.co",
     "build": "env-cmd -f ./environment/logistic-hash-default/.env react-scripts build",
     "start-prod": "env-cmd -f ./environment/logistic-hash-default/.env.prod react-scripts start",
     "build-prod": "env-cmd -f ./environment/logistic-hash-default/.env.prod react-scripts build"

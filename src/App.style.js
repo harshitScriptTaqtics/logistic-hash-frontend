@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const SuperLargeText = styled.h1`
-    font-size: 2.3rem;
+    font-size: 2rem;
 `
 export const LargeText = styled.h1`
-    font-size: 2rem;
+    font-size: 1.8rem;
 `
 export const MediumText = styled.h1`
     font-size: 1.5rem;

@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
-export const NavBarOuter = styled.div`
+export const HeaderOuter = styled.div`
     height: 80px;
-    background-color: #F7CE5B;
+    background-color: #ffff;
     padding: 1rem;
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 14px 0px grey;
+    position: sticky;
+    top:0px;
 `
 
 export const TenantLogo = styled.img`
