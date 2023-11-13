@@ -26,5 +26,4 @@ export const NavIconOuter = styled.section`
 export const NavIconsPart = styled.section`
     width: 100%;
     height: 90%;
-    background-color: blue;
 `

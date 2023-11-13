@@ -1,4 +1,11 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('./assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format("ttf"),
+    url('./assets/fonts/Ubuntu/Ubuntu-Bold.ttf') format("ttf"); 
 }
